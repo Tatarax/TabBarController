@@ -11,17 +11,17 @@ class LogInViewController: UIViewController {
 
     
     @IBOutlet var welcomeUser: UITextField!
+    @IBOutlet var emoji: UILabel!
     
     var valueWelcomeUser: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         welcomeUser.text = valueWelcomeUser
-      
+        
     }
-    
-    
-    
-    
 }
+
+//  let label = UILabel(frame: CGRectMake(20, 20, 0, 0))
+
